@@ -19,4 +19,3 @@ $respostas = \GuzzleHttp\Promise\Utils::unwrap([
 
 echo 'Resposta 1: ' . $respostas[0]->getBody()->getContents();
 echo 'Resposta 2: ' . $respostas[1]->getBody()->getContents();
-
